@@ -29,9 +29,7 @@
       <div>
         <h2 class="font-bold text-lg font-[Water_Brush]">Fitur</h2>
         <div class="pt-4 space-y-2 text-sm">
-          <p><a href="{{ url('/chatbot') }}" class="hover:underline">ChatBot</a></p>
-          <p><a href="{{ url('/rebatik') }}" class="hover:underline">ReBatik</a></p>
-          <p><a href="{{ url('/jual') }}" class="hover:underline">Jual</a></p>
+          <p><a href="{{ url('/product') }}" class="hover:underline">Jual</a></p>
         </div>
       </div>
 
@@ -41,8 +39,8 @@
         <div class="pt-4 space-y-3 text-sm">
           <div class="flex items-center justify-center md:justify-start gap-3">
             <i class="fa-brands fa-github text-2xl"></i>
-            <a href="https://github.com/Alope-Community" class="hover:underline">
-              github.com/Alope-Community
+            <a href="https://github.com/dikrifzn" class="hover:underline">
+              github.com/dikrifzn
             </a>
           </div>
           <div class="flex items-center justify-center md:justify-start gap-3">
@@ -62,7 +60,7 @@
     <!-- Garis dan Copyright -->
     <div class="mt-6">
       <hr class="border-[#fafafa] opacity-40" />
-      <p class="text-center text-sm pt-7">
+      <p class="text-center text-sm pt-7">Dikri Fauzan Amrulloh
         &copy; {{ date('Y') }} Alope Anonymous. All Rights Reserved.
       </p>
     </div>

@@ -2,7 +2,6 @@
 
 @section('content')
 <section class="relative text-center py-24 text-white font-primary bg-cover bg-center" style="background-image: url('/image/hero.png')">
-  <div class="absolute inset-0 bg-black bg-opacity-70"></div>
   <div class="relative z-10">
     <h1 class="font-sekunder text-4xl my-5">CheckOut</h1>
     <p>Cek kembali produk pilihan Anda dan jadilah bagian dari perubahan!</p>
