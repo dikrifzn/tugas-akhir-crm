@@ -9,7 +9,7 @@ class ProductController extends Controller
 {
     public function home()
     {
-        $products = Product::latest()->take(5)->get();
+        $products = Product::latest()->take(4)->get();
         return view('home', compact('products'));
     }
     /**
@@ -50,7 +50,7 @@ class ProductController extends Controller
     public function show($id)
     {
         $product = Product::with('variants')->findOrFail($id);
-        $relatedProducts = Product::where('id', '!=', $product->id)->take(8)->get();
+        $relatedProducts = Product::where('id', '!=', $product->id)->take(4)->get();
         return view('product.detile', compact('product', 'relatedProducts'));
     }
 

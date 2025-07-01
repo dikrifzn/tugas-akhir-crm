@@ -20,6 +20,11 @@ class DatabaseSeeder extends Seeder
             'email' => 'admin@sundara.com',
             'password' => 'admin123',
             'role' => 'admin',
+        ],[
+            'name' => 'customer',
+                    'email' => 'customer@sundara.com',
+                    'password' => 'customer123',
+                    'role' => 'customer',
         ]);
             $this->call([
             ShippingCostSeeder::class,
